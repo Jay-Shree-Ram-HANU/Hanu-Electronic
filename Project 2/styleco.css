@@ -1,0 +1,160 @@
+* {
+    font-family: ubuntu;
+}
+
+.nav {
+    display: flex;
+    width: 36%;
+    margin-bottom: 0px;
+    height: 1cm;
+    position: sticky;
+}
+
+hr {
+    margin-top: 0%;
+}
+
+.navbar {
+    text-decoration: none;
+    font-size: 140%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 10px;
+    color: black;
+}
+
+#nav1 {
+    margin-right: 2%;
+    transition: 0.4s;
+}
+
+#nav2 {
+    margin-right: 2%;
+    transition: 0.4s;
+}
+
+#nav3 {
+    margin-right: 2%;
+    transition: 0.4s;
+}
+
+#nav4 {
+    transition: 0.4s;
+    background-color: rgb(225, 225, 225);
+    cursor: default;
+}
+
+#nav1:hover {
+    transform: scale(1.4);
+}
+
+#nav2:hover {
+    transform: scale(1.4);
+}
+
+#nav3:hover {
+    transform: scale(1.4);
+}
+
+#nav1:active {
+    transform: scale(0.9);
+}
+
+#nav2:active {
+    transform: scale(0.9);
+}
+
+#nav3:active {
+    transform: scale(0.9);
+}
+
+.header {
+    height: 50px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.h11 {
+    color: black;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.col1 {
+    width: 4%;
+}
+
+.col2 {
+    width: 29%;
+}
+
+.form {
+    width: 35%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 14%;
+    margin-right: 20px;
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+input:active,
+.inp:hover {
+    background-color: rgb(208, 208, 208);
+    border-color: greenyellow;
+}
+
+input:hover {
+    background-color: rgb(208, 208, 208);
+}
+
+.inp,
+textarea {
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70%;
+    margin: 1%;
+    padding: 3%;
+}
+
+.btn {
+    height: 9%;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 70%;
+    margin-top: 1%;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.h12 {
+    color: black;
+    font-size: 310%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.row2 {
+    display: flex;
+}

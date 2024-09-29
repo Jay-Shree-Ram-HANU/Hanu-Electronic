@@ -1,0 +1,172 @@
+* {
+    font-family: ubuntu;
+}
+
+.nav {
+    display: flex;
+    width: 36%;
+    margin-bottom: 0%;
+    justify-content: center;
+    height: 1%;
+}
+
+.h11 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+hr {
+    margin-top: 0%;
+}
+
+.navbar {
+    text-decoration: none;
+    font-size: 140%;
+    margin-top: 0.5%;
+    padding: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+    color: black;
+}
+
+#nav1 {
+    background-color: rgb(225, 225, 225);
+    cursor: default;
+    margin-right: 3%;
+}
+
+#nav2 {
+    margin-right: 3%;
+    transition: 0.4s;
+}
+
+#nav3 {
+    margin-right: 3%;
+    transition: 0.4s;
+}
+
+#nav4 {
+    transition: 0.4s;
+}
+
+#nav2:hover {
+    transform: scale(1.4);
+}
+
+#nav3:hover {
+    transform: scale(1.4);
+}
+
+#nav4:hover {
+    transform: scale(1.4);
+}
+
+#nav2:active {
+    transform: scale(0.9);
+}
+
+#nav3:active {
+    transform: scale(0.9);
+}
+
+#nav4:active {
+    transform: scale(0.9);
+}
+
+.row1 {
+    display: flex;
+}
+
+.header {
+    height: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.row2 {
+    display: flex;
+}
+
+.col1 {
+    width: 4%;
+}
+
+.col2 {
+    width: 29%;
+}
+
+.col3 {
+    width: 15%;
+    height: 10%;
+}
+
+.main-img {
+    width: 100.5%;
+    height: 40%;
+}
+
+.col4 {
+    width: 85%;
+}
+
+.col5 {
+    width: 25%;
+    border: 2px solid black;
+}
+
+.col6 {
+    width: 25%;
+    border: 2px solid black;
+}
+
+.col7 {
+    width: 25%;
+    border: 2px solid black;
+}
+
+.col8 {
+    width: 25%;
+    border: 2px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.img {
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.img:hover {
+    transform: scale(1.04);
+}
+
+.row3 {
+    display: flex;
+}
+
+p {
+    text-align: center;
+}
+
+.h12 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
